@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  justify-content: space-between;
+  padding: 10px 100px;
+}
+
+.nav1 {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav2 {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.item {
+  padding: 0px 10px;
+}
+
+.relative:hover {
+  position: relative;
+  color: orangered;
+}
+
+.list {
+  background-color: blueviolet;
+  top: 28px;
+  left: 0px;
+  position: absolute;
+  display: none;
+}
+
+.relative:hover .list {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+}
+
+.container2 {
+  margin: auto;
+  width: 80%;
+  background-color: aquamarine;
+}
+
+.flex2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.card {
+  border: 1px solid blue;
+  margin: 5px 5px;
+  width: inherit;
+}
+
+.container3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.hr {
+  border: 1px solid black;
+  width: 146px;
+}
+
+.h2 {
+  padding: 0px 10px;
+}
+
+.container4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: auto;
+  width: 80%;
+  background-color: aquamarine;
+}
+
+.flex22 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: aquamarine;
+  width: inherit;
+}
+
+.container5 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: auto;
+  width: 80%;
+  background-color: aquamarine;
+}
+
+.container6 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: black;
+}
+
+.fx1 h3 {
+  color: white;
+}
+
+.fx2 a {
+  color: white;
+}
